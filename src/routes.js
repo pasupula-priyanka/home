@@ -3,8 +3,8 @@ import {Switch,Route} from 'react-router-dom';
 //Importing components
 
 import Main from './components/Main';
-import Contact from './components/contactUs';
-import Thanks from './components/thanks';
+import Contact from './components/Contactus';
+import Thanks from './components/Thanks';
 
 const Routes = () =>{
     return(

@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from 'react';
 import {Link,useHistory} from 'react-router-dom'
 import Routes from './routes';
-import Footer from './footer'
+import Footer from './footer';
 
 
 
@@ -22,7 +22,7 @@ function App() {
 
   useEffect(()=>{
     checkPath();
-  }, []);
+  });
 
    const showContact = path;
    let _contact;
